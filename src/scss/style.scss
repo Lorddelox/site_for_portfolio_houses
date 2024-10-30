@@ -1,0 +1,12 @@
+
+@use "../../node_modules/bootstrap/scss/bootstrap.scss";
+@use "./_mainPage.scss";
+$font-family: Inter;
+.title-2 {
+    font-family: $font-family;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    color: #5B6460;
+}
+

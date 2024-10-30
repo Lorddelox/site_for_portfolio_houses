@@ -1,0 +1,200 @@
+
+$second-family:Inter;
+$font-family: Inter;
+.header {
+    color: #fff;
+    &__container {
+    }
+
+    &__icon {
+    }
+
+    &__navbar {
+    }
+
+    &__navbar-item {
+     
+            font-family: var(--second-family);
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 171%;
+            text-transform: uppercase;
+            color: #000;
+            text-decoration: none;
+    }
+    &__btn{
+        background:  #5b6460;
+        font-family: var(--second-family);
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 200%;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        color: #fff;
+    }
+}
+.intro-slider {
+    position: relative;
+    margin-bottom: 150px;
+    overflow: visible;
+		&__carousel {
+		}
+
+		&__indicators { 
+		}
+
+		&__inner {
+            overflow: inherit;
+		}
+
+		&__item {
+                overflow: inherit;
+                background-image: url(../imgs/main/main-slider/Intro.png);
+                height: 100%;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 100vh;
+                color: #fff;
+                position: relative;
+                z-index: 1;
+		}
+        &__item-container{
+            position: relative;
+            height: 100%;
+        }
+        &__item-block{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            row-gap: 29px;
+            align-items: flex-end;
+            right: 0;
+            top: 95px;
+        }
+		&__item-title {
+            font-weight: 300;
+            font-size: 70px;
+            line-height: 103%;
+            text-align: right;
+            color: #fff;
+		}
+        &__item-text{
+            font-family: var(--font4);
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 140%;
+            text-align: center;
+            color: #fff;
+            max-width: 333px;
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 85px;
+        }
+
+		&__image {
+		}
+
+		&__control {
+		}
+
+		&__control--prev {
+		}
+
+		&__control--next {
+		}
+        &__booking-btn{
+            border-radius: 0;
+            z-index: 2;
+            position: absolute;
+            bottom: -38px;
+            display: flex;
+            button{
+                background: #5B6460;
+                padding: 36px 73px;
+                border: none;
+                color: #fff;
+            }
+            div{
+                background: #E9ECE0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 22px;
+                span:first-child{
+                    text-align: left;
+                    font-weight: 300;
+                    font-size: 12px;
+                    line-height: 150%;
+                    font-family: $second-family;
+                    color: #333;
+                }
+                span:nth-child(2){
+                    font-family: $second-family;
+                    text-align: center;
+                    font-weight: 300;
+                    font-size: 20px;
+                    line-height: 140%;
+                    color: #333;
+                    font-weight: 500;
+                }
+                span:nth-child(3){
+                    text-align: center;
+                    font-weight: 300;
+                    font-size: 12px;
+                    line-height: 150%;
+                    color: #333;
+                    font-family: $second-family;
+                }
+            }
+        }
+}
+.the-cabins {
+    margin-bottom: 66px;
+    &__text-container{
+        
+    }
+    &__text-block {
+        margin-top: 87px;
+        margin-left: 147px;
+        max-width: 351px;
+        color: #5B6460;
+    }
+
+    &__title {
+    }
+
+    &__text {
+        max-width: 465px;
+        font-family: $font-family;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 187%;
+        color: #000;
+    }
+
+    &__link {
+        font-family: $font-family;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 187%;
+        color: #5B6460;
+    }
+
+    &__img-block {
+        display: flex;
+        justify-content: flex-end;
+        margin:-15px;
+        img{
+           height: 100%;
+            width: 100%;
+            
+        }
+    }
+    &__videos{
+        margin-top: 150px;
+        column-gap: 24px;
+    }
+}
+
+
+
